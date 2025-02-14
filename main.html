@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    <nav><h2>🥘 Recipe Book 🥘</h2></nav>
+    
+    
+    <div class="container">
+        <form id="recipe-form">
+            <input type="hidden" id="edit-index">
+            <label for="title">Recipe Title</label>
+            <input type="text" id="title" placeholder="Recipe Title" required>
+            <label for="ingredient">Ingredients</label>
+            <input type="text" id="ingredient" placeholder="Ingredients" required>
+            <label for="instruction">Instructions</label>
+            <textarea id="instruction" placeholder="Instructions" required></textarea>
+            <label for="cuisine">Cuisine</label>
+            <input type="text" id="cuisine" placeholder="Cuisine Type" required>
+            <label for="image">Image URL</label>
+            <input type="text" id="image" placeholder="Image URL" required>
+            <button type="submit" id="submit">Save Recipe</button>
+        </form>
+    </div>
+    <div class="container1">
+        <input type="text" id="search" placeholder="Search by title">
+        <button id="search-btn">Search</button>
+        <select id="filter">
+            <option value="">Filter by Cuisine</option>
+        </select>
+    </div>
+    
+    <div id="container" class="container2"></div>
+    <script src="index1.js"></script>
+        
+</body>
+</html>
+
+
+
+
+
