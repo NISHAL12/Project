@@ -147,20 +147,4 @@ button:hover {
     box-shadow: 0 0 12px rgba(41, 128, 185, 0.5);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        max-width: 92%;
-        padding: 25px;
-    }
 
-    button {
-        font-size: 16px;
-        padding: 12px;
-    }
-
-    .recipe-card img {
-        width: 160px;
-        height: 160px;
-    }
-}
